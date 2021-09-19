@@ -72,7 +72,7 @@ To simplify authentication and authorization to single-user clusters, this mecha
 ## Usage
 
 ### User Usage
-Users can download and un-tar the appropriate release for their platform, and run `./ssl-pairgen`:
+Users can download and un-tar the appropriate release for their platform, and run `./ssl-pairgen "<org>" <user>`:
 ```
 $ ssl-pairgen "Linux Jedi" david
 Generating CA and user keys and certificates ...
