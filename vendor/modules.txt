@@ -1,0 +1,10 @@
+# golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/plan9
+golang.org/x/sys/unix
+golang.org/x/sys/windows
+# golang.org/x/term v0.0.0-20210916214954-140adaaadfaf
+golang.org/x/term
+# software.sslmate.com/src/go-pkcs12 v0.0.0-20180114231543-2291e8f0f237
+software.sslmate.com/src/go-pkcs12
+software.sslmate.com/src/go-pkcs12/internal/rc2
