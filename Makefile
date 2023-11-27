@@ -17,8 +17,8 @@ arch = $(word 2,$(subst -, ,$@))
 platform = $(word 2,$(subst _, ,$@))
 
 $(PLATFORMS): deps
-	GOOS=$(os) GOARCH=$(arch) $(GO) build \
-		-ldflags "-w -s" \
+	GOOS=$(os) GOARCH=$(arch) $(GO) build -tags netgo\
+		-ldflags '-w -s -extldflags "-static"' \
 		-o target/$(PKG_NAME)_$@
 
 TARGETS = $(addprefix target/$(PKG_NAME)_,$(PLATFORMS))
